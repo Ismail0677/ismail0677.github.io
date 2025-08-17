@@ -1,0 +1,67 @@
+#image{
+    width: 200px;
+}
+
+.header{
+    display: grid;
+    
+}
+.collerimage{
+    display: flex;
+    flex-direction: row;
+}
+#h11{
+   color: rgb(38, 91, 59)
+   
+}
+#fc{
+    color: #0b3a1d;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(38, 91, 59);
+}
+
+/* Styles pour les éléments de liste dans la navigation */
+li {
+  float: left;
+}
+
+/* Styles pour les liens de navigation */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Effet hover sur les liens */
+li a:hover {
+  background-color: #0b3a1d;
+}
+body{
+    margin: auto;
+   
+}
+h2{
+    text-align: center;
+    color: rgb(38, 91, 59);
+}
+.foot{
+    
+  width: 300px; /* Set container width */
+  height: 200px; /* Set container height */
+  object-fit: cover; /* Crops and fills the container */
+
+}
+.secttionat{
+background-color: rgb(38, 91, 59);
+color: white;
+text-align: center;
+padding: 200px;
+}
