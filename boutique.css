@@ -106,3 +106,19 @@ h2{
     button:hover {
       background: #228B22;
     }
+    footer {
+      background: #006400;
+      color: #fff;
+      text-align: center;
+      padding: 40px;
+      margin-top: 35px;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: 0.3s;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
