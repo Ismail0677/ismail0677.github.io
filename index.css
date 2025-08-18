@@ -117,7 +117,7 @@ footer {
       max-width: 150px;
       filter: grayscale(20%);
       transition: 0.3s;
-      color: #006400;
+      border-radius: 25px;
     }
     .sponsor-logos img:hover {
       filter: grayscale(0%);
