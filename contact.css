@@ -52,41 +52,62 @@ h2{
     text-align: center;
     color: rgb(38, 91, 59);
 }
-.foot{
-    
-  width: 100vw; /* Set container width */
-  height: 50vh; /* Set container height */
-  margin: 0;
+.contact {
+  background: #fff;
+  padding: 40px;
+  margin: 40px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.contact h2 {
+  color: #006400;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin: 8px 0;
+  color: #333;
+}
+
+.contact-form {
+  margin-top: 20px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  border-radius: 0;
-  box-shadow: none;
-
 }
-.foot-img{
-width: 100vw;
-height: 100%;
 
-object-fit:cover;
-object-position:center 15%;
-display: block;
-
+.contact-form textarea {
+  width: 80%;
+  height: 120px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #006400;
+  resize: none;
+  font-size: 1em;
+  margin-bottom: 15px;
 }
-.sectionat{
-background-color: rgb(38, 91, 59);
-color: white;
-text-align: center;
-font-size: 3em;
-padding-top:50px;
-padding-bottom: 30px;
+
+.contact-form button {
+  background: #006400;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #228B22;
 }
 footer {
       background: #006400;
       color: #fff;
       text-align: center;
-      padding: 20px;
+      padding: 40px;
       margin-top: 35px;
     }
     footer a {
@@ -98,30 +119,3 @@ footer {
     footer a:hover {
       text-decoration: underline;
     }
-    .socials {
-      margin-top: 10px;
-    }
-     .sponsors h2 {
-      text-align: center;
-      color: #006400;
-      margin-bottom: 20px;
-    }
-    .sponsor-logos {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 30px;
-     align-items: center;
-    }
-    .sponsor-logos img {
-      max-width: 150px;
-      filter: grayscale(20%);
-      transition: 0.3s;
-      color: #006400;
-    }
-    .sponsor-logos img:hover {
-      filter: grayscale(0%);
-      transform: scale(1.05);
-      
-    }
-    
