@@ -18,8 +18,7 @@
     align-items: center;
 }
 .footy{
-display: grid;
-;
+align-content: center;
 
 }
 ul {

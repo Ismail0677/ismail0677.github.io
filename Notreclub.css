@@ -17,8 +17,7 @@
     margin: 0px;
 }
 .footy{
-display: grid;
-justify-content: center;
+align-content: center;
 
 }
 ul {

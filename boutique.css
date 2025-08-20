@@ -10,12 +10,13 @@
     display: flex;
     flex-direction: row;
 }
-#h11{
-   color: rgb(38, 91, 59)
-   
+.titreheader{
+   color: rgb(38, 91, 59);
+    margin: 0px;
+    
 }
-#fc{
-    color: #0b3a1d;
+.footy{
+    align-content: center;
 }
 
 ul {
@@ -52,12 +53,8 @@ h2{
     text-align: center;
     color: rgb(38, 91, 59);
 }
- body{
-      font-family: Arial, sans-serif;
-      
-      
-    }
-    h1 {
+ 
+    #h1 {
       text-align: center;
       color: rgb(38, 91, 59);
     }
