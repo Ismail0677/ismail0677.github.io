@@ -10,11 +10,16 @@
     display: flex;
     flex-direction: row;
 }
+
 .titreheader{
    color: rgb(38, 91, 59);
     margin: 0px;
 }
+.footy{
+display: grid;
+justify-content: center;
 
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -45,62 +50,61 @@ body{
     margin: auto;
    
 }
-h2{
-    text-align: center;
+  h2{  text-align: center;
     color: rgb(38, 91, 59);
 }
-.contact {
-  background: #fff;
-  padding: 40px;
-  margin: 40px;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-.contact h2 {
-  color: #006400;
-  margin-bottom: 20px;
-}
-
-.contact-info p {
-  margin: 8px 0;
+/* Style global */
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
   color: #333;
+  text-align: center;
+ 
 }
 
-.contact-form {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+
+
+/* Formulaire */
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  max-width: 350px;
+  margin: auto;
 }
 
-.contact-form textarea {
-  width: 80%;
-  height: 120px;
-  padding: 15px;
-  border-radius: 10px;
-  border: 2px solid #006400;
-  resize: none;
-  font-size: 1em;
-  margin-bottom: 15px;
-}
-
-.contact-form button {
-  background: #006400;
-  color: #fff;
-  padding: 12px 25px;
-  border: none;
+/* Champs */
+form input, form select, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
   border-radius: 8px;
+  font-size: 14px;
+}
+
+/* Bouton */
+form button {
+  background: rgb(38, 91, 59);
+  color: white;
+  font-weight: bold;
   cursor: pointer;
-  font-size: 1.1em;
   transition: 0.3s;
 }
 
-.contact-form button:hover {
-  background: rgb(38, 91, 59);
+form button:hover {
+  background: #024218;
 }
-footer {
+
+/* Message de succès */
+#msg {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+ footer {
       background: rgb(38, 91, 59);
       color: #fff;
       text-align: center;
@@ -116,3 +120,4 @@ footer {
     footer a:hover {
       text-decoration: underline;
     }
+

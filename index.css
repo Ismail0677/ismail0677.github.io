@@ -1,3 +1,4 @@
+
 #image{
     width: 200px;
 }
@@ -10,12 +11,10 @@
     display: flex;
     flex-direction: row;
 }
-#h11{
-   color: rgb(38, 91, 59)
-   
-}
-#fc{
-    color: #0b3a1d;
+
+.titreheader{
+   color: rgb(38, 91, 59);
+    margin: 0px;
 }
 
 ul {
@@ -48,8 +47,7 @@ body{
     margin: auto;
    
 }
-h2{
-    text-align: center;
+  h2{  text-align: center;
     color: rgb(38, 91, 59);
 }
 .foot{
@@ -63,14 +61,13 @@ h2{
   overflow: hidden;
   border-radius: 0;
   box-shadow: none;
-
 }
 .foot-img{
 width: 100vw;
 height: 100%;
 
 object-fit:cover;
-object-position:center 15%;
+object-position:center 25%;
 display: block;
 
 }
@@ -83,7 +80,7 @@ padding-top:50px;
 padding-bottom: 30px;
 }
 footer {
-      background: #006400;
+      background: rgb(38, 91, 59);
       color: #fff;
       text-align: center;
       padding: 20px;
@@ -103,7 +100,7 @@ footer {
     }
      .sponsors h2 {
       text-align: center;
-      color: #006400;
+      color: rgb(38, 91, 59);
       margin-bottom: 20px;
     }
     .sponsor-logos {
