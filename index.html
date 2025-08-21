@@ -6,6 +6,7 @@
     <title>Piliantos football club</title>
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site officiel du Piliantos Football Club. Infos, boutique, programme, contact et inscription.">
 </head>
 <body>
 <header>
@@ -16,51 +17,52 @@
                 <h1 class="titreheader">Football Club</h1>
             </div>
         </div>
-
+        <button class="hamburger" aria-label="Ouvrir le menu" aria-controls="navbar" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </section>
-    <section class="navbar">
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="Notreclub.html">Notre club</a></li>
-                <li><a href="Boutique.html">Boutique</a></li>
-                <li><a href="programme.html">Programme</a></li>
-                <li><a href="contact.html">Contactez nous</a></li>
-                <li><a href="form.html">Inscription</a></li>
-            </ul>
-        </nav>
-    </section>
+    <a href="#main" class="skip-link">Aller au contenu principal</a>
+    <nav aria-label="Navigation principale" class="navbar" id="navbar">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="Notreclub.html">Notre club</a></li>
+            <li><a href="Boutique.html">Boutique</a></li>
+            <li><a href="programme.html">Programme</a></li>
+            <li><a href="contact.html">Contactez nous</a></li>
+            <li><a href="form.html">Inscription</a></li>
+        </ul>
+    </nav>
     <h2>Devenez un Piliantois!! Pour la saison 2025/2026</h2>
 </header>
-<main>
-    <section class="foot">
-        <img class="foot-img" src="child-613199_1920.jpg" alt="enfant piliantos">
-        
-    </section>
-    <section class="sectionat">
-<h1>Always</h1>
-<h1>Together</h1>
-    </section>
-     <section class="sponsors">
-    <h2>Notre Sponsor Officiels</h2>
-    <div class="sponsor-logos">
-     <a href="https://naksh.ca/"> <img src="naksh real.jpg" alt="Sponsor 1" ></a>
-    </div>
-  </section>
-    
-</main>
- <footer>
-    <p>&copy; 2025 Piliantos FC - Tous droits réservés</p>
-    <div class="links">
-      <a href="#">Conditions Générales</a> |
-      <a href="#">Politique de Confidentialité</a> |
-      <a href="#">Contact</a>
-    </div>
-    <div class="socials">
-      <a href="#">Facebook</a>  .
-      <a href="#">Instagram</a> ·
-      <a href="#">Twitter</a>
-    </div>
-  </footer>
+<main id="main">
+        <section class="sectionat">
+            <h1>Always</h1>
+            <h1>Together</h1>
+        </section>
+        <section class="sponsors">
+            <h2>Nos Sponsors Officiels</h2>
+            <div class="sponsor-logos">
+                <a href="https://naksh.ca/" aria-label="Visiter le site du sponsor Naksh">
+                    <img src="naksh real.jpg" alt="Logo Naksh, sponsor Piliantos">
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+            <p>&copy; 2025 Piliantos FC - Tous droits réservés</p>
+            <nav aria-label="Liens du pied de page" class="links">
+                <a href="#">Conditions Générales</a> |
+                <a href="#">Politique de Confidentialité</a> |
+                <a href="#">Contact</a>
+            </nav>
+            <div class="socials" aria-label="Réseaux sociaux">
+                <a href="#" aria-label="Facebook">Facebook</a> ·
+                <a href="#" aria-label="Instagram">Instagram</a> ·
+                <a href="#" aria-label="Twitter">Twitter</a>
+            </div>
+    </footer>
+    <script src="menu.js"></script>
 </body>
 </html>
