@@ -14,8 +14,7 @@
 .titreheader{
    color: rgb(38, 91, 59);
     margin: 0px;
-    justify-content: center;
-    align-items: center;
+    
 }
 .footy{
 align-content: center;
@@ -84,4 +83,9 @@ box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     footer a:hover {
       text-decoration: underline;
     }
-
+@media (max-width: 600px) {
+    .gridclub {
+    grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+}
